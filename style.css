@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background: #f0f0f0;
+	background-image: url('sindhuli.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	font: a4px/20px Arial, san-serif;
+	color: #555;
+	margin: 0
+	padding: 0;
+	overflow-y: scroll;
+	font-size: 18px;
+}
+
+div#menubar{
+	padding: 16px;
+	position: relative;
+	background-color: black;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 3px;
+}
+div#menubar1>a{
+	font-family: Arial, Helvitaca, sabs-serif;
+	font-size: 17px;
+	padding: 12px 24px;
+	color: white;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-right: 10px;
+	position: relative;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+div#menubar1>a:hover{
+	background: #6F8A00;
+	color: #FFF;
+}
+#image{
+	margin-top: 20px;
+	padding: 5px 5px;
+	display: block;
+	max-width: 500px;
+	width: 500px;
+	height: auto;
+}
+
+img{
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	display: block;
+}
+.login{
+	/*float: right;*/
+	position: relative;
+}
+#body{
+	background-image: url('pokhara.jpg');
+	/*background-size: contain;*/
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	background-color: grey;
+	position: relative;
+}
+#form{
+	float: right;
+}
+#main{
+	position: relative;
+	background-color: grey;
+}
+#search{
+	border-radius:15px;
+	background-color:green;
+	padding-left: 110px;
+	padding-right: 110px;
+	height: 30px;
+	font-size:17px;
+	color:white;
+}
+.mystyle{
+	height: 30px;
+	width: 300px;
+	border-radius: 3px;
+}
+aside{
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+	padding: 3%;
+}
+div#mid{
+	padding: 16px;
+	position: relative;
+	margin-left: 20px; 
+}
+ul.gym a {
+	font-family: Arial, Helvitaca, sabs-serif;
+	font-size: 14px;
+	text-decoration: none;
+	position: relative;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+ul.gym a:hover{
+	background: #6F8A00;
+	color: silver;
+}
+ul.gym li{
+	padding-left: 3%;
+}
+section{
+	width: 3%;
+	float: left;
+	margin: 0% 0%;
+}
+@media screen and (max-width: 478px){
+		body{
+			position: absolute;
+		}
+	}
+@media screen and (max-width: 740px){
+		header{
+			position: absolute;
+		}
+		section{
+			float: left;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		aside{
+			float: left;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	}
+footer{
+		/*background: #333333;*/
+		width: 100%;
+		overflow: hidden;
+		opacity: 0.9;
+	}
+	footer p, footer h3{
+		color: black;
+	}
+	footer p a {
+		color: #fff;
+		text-decoration: none;
+	}
+	ul.social li{
+		display: inline;
+	}
+	ul.social li img{
+		height: 40px;
+		margin: 2px;
+		display: inline-block;
+	}
+	footer.second{
+		border-top: 1px solid #4D4E50;
+		background-color: #333333;
+		max-height: 50px;
+		text-align: center;
+		opacity: 0.95;
+	}
+div#bottom{
+	position: relative;
+}
+div#bottom1>a{
+	font-family: Arial, Helvitaca, sabs-serif;
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+	position: relative;
+}
+section{
+		width: 29%;
+		float: left;
+		margin: 2% 2%;
+}
+.clear{
+	clear: both;
+}
